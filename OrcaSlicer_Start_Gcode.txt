@@ -1,0 +1,7 @@
+M117
+M190 S0
+M109 S0
+PRINT_START
+EXTRUDER_TEMP={first_layer_temperature[0]}
+BED_TEMP={first_layer_bed_temperature[0]}
+MATERIAL={filament_type[0]}
